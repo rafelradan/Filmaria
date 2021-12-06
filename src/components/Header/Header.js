@@ -8,9 +8,16 @@ export default function Header() {
       <Link className="logo" to="/">
         Filmaria
       </Link>
-      <Link className="favoritos" to="/favorits">
-        Favoritos
-      </Link>
+
+      <div>
+        <Link className="favoritos" to="/searchonyoutube">
+          Procurar no YouTube
+        </Link>
+
+        <Link className="favoritos" to="/favorits">
+          Favoritos
+        </Link>
+      </div>
     </header>
   )
 }

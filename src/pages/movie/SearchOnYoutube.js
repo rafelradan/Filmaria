@@ -1,17 +1,23 @@
 import { useState } from 'react'
 
-export function Test() {
+export function SearchOnYoutube() {
   const [search, setSearch] = useState()
 
   return (
-    <div>
+    <div className="pgYT">
       <h1>ASSISTA ONLINE</h1>
       <h2>Pesquisar filme no YouTube</h2>
 
-      <input type="text" onChange={e => setSearch(e.target.value)} />
+      <input
+        className="inpYT"
+        placeholder="Digite o nome do filme"
+        type="text"
+        onChange={e => setSearch(e.target.value)}
+      />
 
-      <button>
+      <button className="btnYT">
         <a
+          className="aYT"
           target="_blank"
           rel="noreferrer"
           href={`https://youtube.com/results?search_query=${search} Filme completo`}
@@ -24,4 +30,4 @@ export function Test() {
   )
 }
 
-export default Test
+export default SearchOnYoutube

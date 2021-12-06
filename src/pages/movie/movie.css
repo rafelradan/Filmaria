@@ -35,3 +35,26 @@
   background-color: brown;
   color: #fff;
 }
+
+/* Pagina -> Procurar no YouTube */
+
+.btnYT {
+  width: 100px;
+  height: 30px;
+  margin-left: 5px;
+}
+
+.inpYT {
+  width: 300px;
+  height: 25px;
+  outline: none;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+.pgYT {
+  text-align: center;
+}

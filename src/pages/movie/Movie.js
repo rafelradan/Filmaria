@@ -74,9 +74,9 @@ export function Movie() {
           <a
             target="_blank"
             rel="noreferrer"
-            href={`https://youtube.com/results?search_query=${movie.nome} Trailer`}
+            href={`https://youtube.com/results?search_query=${movie.nome} Filme completo`}
           >
-            Trailer
+            Assistir
           </a>
         </button>
       </div>
