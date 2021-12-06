@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+
+  margin: 0 auto;
+
+  margin-top: 25px;
+}
+
+.list_movies {
+  margin: 15px;
+}
+
+.list_movies article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(240, 240, 240);
+  margin: 20px;
+  padding: 15px;
+  border-radius: 9px;
+}
+
+.list_movies article strong {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.list_movies article a {
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 6px;
+  color: rgb(2, 2, 2);
+  background: #fff;
+}
+
+.list_movies article a:hover {
+  background-color: rgb(177, 44, 44);
+  color: #fff;
+}
+
+.list_movies img {
+  width: 750px;
+  max-height: 350px;
+}
