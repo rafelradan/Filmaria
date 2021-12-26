@@ -58,3 +58,64 @@ button a {
 .pgYT {
   text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  .main img {
+    max-width: 700px;
+  }
+
+  .midle .sinopse {
+    max-width: 700px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .main img {
+    width: 450px;
+  }
+
+  .midle .sinopse {
+    max-width: 450px;
+    text-align: justify;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+  .main img {
+    width: 350px;
+  }
+
+  .midle .sinopse {
+    max-width: 350px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+  }
+  .main img {
+    width: 250px;
+  }
+
+  .midle .sinopse {
+    max-width: 250px;
+    font-size: 10px;
+  }
+
+  .btnYT {
+    margin-top: 50px;
+  }
+}

@@ -64,7 +64,7 @@ export function Movie() {
 
         <div className="midle">
           <h2>Sinopse</h2>
-          {movie.sinopse}
+          <div className="sinopse">{movie.sinopse}</div>
         </div>
       </div>
 

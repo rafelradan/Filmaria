@@ -24,8 +24,11 @@ export const Home = () => {
           return (
             <article key={movie.id}>
               <strong>{movie.nome}</strong>
+              <p>{movie.nome}</p>
               <img src={movie.foto} alt={movie.nome} />
-              <Link to={`movie/${movie.id}`}>Acessar</Link>
+              <Link className="link" to={`movie/${movie.id}`}>
+                Acessar
+              </Link>
             </article>
           )
         })}

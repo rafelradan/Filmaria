@@ -31,6 +31,10 @@
   font-size: 25px;
 }
 
+p {
+  display: none;
+}
+
 .list_movies article a {
   margin-top: 10px;
   text-decoration: none;
@@ -49,4 +53,39 @@
 .list_movies img {
   width: 750px;
   max-height: 350px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .list_movies img {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+  .list_movies img {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+  }
+  .list_movies img {
+    width: 250px;
+  }
+
+  article strong {
+    display: none;
+  }
+
+  p {
+    display: block;
+  }
 }
